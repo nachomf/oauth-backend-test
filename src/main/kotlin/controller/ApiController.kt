@@ -1,7 +1,7 @@
 package controller
 
 import GetTokenResponse
-import LoginService
+import service.LoginService
 import configuration.JsonTransformer
 import spark.Spark.get
 
