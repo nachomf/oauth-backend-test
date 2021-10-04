@@ -11,6 +11,7 @@ version = "1.0-SNAPSHOT"
 repositories {
     jcenter()
     mavenCentral()
+    google()
     maven("https://maven.pkg.jetbrains.space/public/p/kotlinx-html/maven")
 }
 
@@ -21,6 +22,7 @@ dependencies {
     implementation("org.slf4j:slf4j-api:1.7.5")
     implementation("org.slf4j:slf4j-log4j12:1.7.5")
     implementation("com.google.code.gson:gson:2.8.8")
+    implementation( "com.google.api-client:google-api-client:1.32.1")
 }
 
 tasks.test {
